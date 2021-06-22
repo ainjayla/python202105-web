@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+    <title>Taringumang</title>
+</head>
+<body>
+    <h1>Taringumang</h1>
+    <form action="/">
+        <label for="dice_count">Taringute arv:</label>
+        <input id="dice_count" name="dice_count" type="number" value="{{dice_count}}"><br>
+        <input class="button" type="submit" value="Veereta taringut">
+    </form>
+    <h3>Taringute tulemused:</h3>
+    <h3>{{numbers}}</h3>
+    <p>Taringute summa kokku on {{total}}</p>
+</body>
+</html>
