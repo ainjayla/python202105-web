@@ -3,8 +3,18 @@ body {
     font-family: sans-serif;
 }
 
+input {
+    margin: 0.5rem 0;
+}
+
 .button {
     background-color: #8DD958;
     color: #FFFFFF;
     font-size: 14px;
+}
+
+.total {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
 }
